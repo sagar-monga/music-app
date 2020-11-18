@@ -17,18 +17,24 @@ Size dev;
 
 class _PlayerScreenState extends State<PlayerScreen> {
   @override
-  void initState(){
+  void initState() {
     super.initState();
     initAudioPlayer();
+    play(widget._song.url);
   }
 
+
   bool _isPlaying;
+  bool _isMute;
+  double curVol;
   AudioPlayer audioPlayer;
   Duration _duration;
   Duration _position;
   initAudioPlayer() {
     //Initialize
     _isPlaying = false;
+    _isMute = false;
+    curVol = 1.0;
     audioPlayer = AudioPlayer();
     
     //Attach Listener
@@ -48,17 +54,40 @@ class _PlayerScreenState extends State<PlayerScreen> {
       });
     });
   }
+
+  _setVol(){
+    if(curVol == 0.0){
+      curVol = 1.0;
+      audioPlayer.setVolume(curVol);
+      setState(() {
+        _isMute = false;
+      });
+    }
+    else{
+      curVol = 0.0;
+      audioPlayer.setVolume(curVol);
+      setState(() {
+        _isMute = true;
+      });
+    }
+  }
   play(String url) async {
     int result = await audioPlayer.play(url);
     if (result == 1) {
       // success
     }
+    setState(() {
+      _isPlaying = true;
+    });
   }
   pause() async {
     int result = await audioPlayer.pause();
     if (result == 1) {
       // success
     }
+    setState(() {
+      _isPlaying = false;
+    });
   }
   stop() async {
     int result = await audioPlayer.stop();
@@ -147,19 +176,19 @@ class _PlayerScreenState extends State<PlayerScreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  IconButton(
-                    icon: Icon(Icons.volume_off, size: 40,),
-                    onPressed: (){
-                      audioPlayer.setVolume(0.0);
-                    },
-                  ),
+                  // IconButton(
+                  //   icon: Icon(Icons.volume_off, size: 40,),
+                  //   onPressed: (){
+                  //     audioPlayer.setVolume(0.0);
+                  //   },
+                  // ),
                   IconButton(
                     icon: _isPlaying ? Icon(Icons.pause, size: 40) : Icon(Icons.play_arrow, size: 40),
                     onPressed: () async{
                       if(_isPlaying)
-                        await pause();
+                        pause();
                       else if(!_isPlaying)
-                        await play(widget._song.url);
+                        play(widget._song.url);
                     },
                   ),
                   IconButton(
@@ -169,9 +198,10 @@ class _PlayerScreenState extends State<PlayerScreen> {
                     },
                   ),
                   IconButton(
-                    icon: Icon(Icons.volume_up, size: 40),
+                    // icon: Icon(Icons.volume_up, size: 40),
+                    icon: _isMute? Icon(Icons.volume_off, size: 40,) : Icon(Icons.volume_up, size: 40),
                     onPressed: (){
-                      audioPlayer.setVolume(1.0);
+                      _setVol();
                     },
                   )
                 ],
