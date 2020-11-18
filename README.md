@@ -1,3 +1,5 @@
+![Flutter Logo](https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png)
+
 # Music App
 A Music App built with Flutter.
 
@@ -10,4 +12,4 @@ See how it works 👇
 
 1. Go to releases page
 2. Download and install the latest release
-3. *That's it*
+> That's It!
