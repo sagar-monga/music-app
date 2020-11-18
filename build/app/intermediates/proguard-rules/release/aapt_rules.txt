@@ -1,0 +1,30 @@
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:22
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:161
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:152
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:166
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:181
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:171
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:177
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:134
+-keep class com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:90
+-keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:97
+-keep class com.google.firebase.auth.internal.GenericIdpActivity { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:115
+-keep class com.google.firebase.auth.internal.RecaptchaActivity { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:69
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:145
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:27
+-keep class com.sm.music_app.MainActivity { <init>(); }
+# Referenced at E:\Flutter course\Flutter\music_app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:22
+-keep class io.flutter.app.FlutterApplication { <init>(); }
