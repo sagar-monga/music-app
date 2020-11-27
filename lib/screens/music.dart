@@ -53,6 +53,9 @@ class _MusicScreenState extends State<MusicScreen> {
       song.aname = singleSong['artistName'];
       song.imgUrl = singleSong['artworkUrl100'];
       song.url = singleSong['previewUrl'];
+      song.albumArt = singleSong['artworkUrl100'].replaceAll("100x100","256x256");
+
+
       return song;
     }).toList();
     setState(() {

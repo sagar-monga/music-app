@@ -7,6 +7,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:music_app/screens/music.dart';
 import 'package:music_app/screens/oauth.dart';
 import 'package:http/http.dart' as http;
+import 'package:music_app/screens/playlist.dart';
 import 'package:music_app/utils/constants.dart';
 import 'dart:convert' as convert;
 
@@ -39,7 +40,9 @@ class _ArtistScreenState extends State<ArtistScreen> {
     );
   }
   _getDetails(){}
-  _showPlaylist(){}
+  _showPlaylist(){
+    Navigator.push(context, MaterialPageRoute(builder: (context)=>PlaylistScreen()));
+  }
   _subscribe(){}
   _logOff()  async {
     if(widget._auth != null) {

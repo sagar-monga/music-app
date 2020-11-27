@@ -10,23 +10,36 @@ class SplashScreen extends StatefulWidget {
   _SplashScreenState createState() => _SplashScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderStateMixin{
   _moveToNext() {
-    Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => OAuthLogin()));
+    Timer(Duration(seconds: 6), ()=>Navigator.pushReplacement(
+        context, MaterialPageRoute(builder: (context) => OAuthLogin())));
   }
+  AnimationController _aC;
+  Animation _a;
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    Timer(Duration(seconds: 5), _moveToNext);
+    _doAnimation();
+    _moveToNext();
+  }
+  _doAnimation(){
+    _aC = AnimationController(vsync: this, duration: Duration(seconds: 4));
+    _a = CurvedAnimation(parent: _aC, curve: Curves.elasticInOut);
+    _a.addListener(() {
+      setState(() {
+
+      });
+    });
+    _aC.forward();
   }
   @override
   Widget build(BuildContext context) {
     var media = MediaQuery.of(context).size;
     return Scaffold(
       body: SafeArea(
-        child: Stack(
+        child:Stack(
             children: [
               Container(
                 height: media.height,
@@ -37,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                   ),
-                )
+                ),
               ),
 
               Container(
@@ -45,7 +58,8 @@ class _SplashScreenState extends State<SplashScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.network(Constants.SPLASH_IMG_URL),
+                    Image.asset('assets/images/splash.png', height: _a.value*250,
+                      width: _a.value*250,),
                     SizedBox(
                       height: 70,
                       width: media.width,

@@ -5,15 +5,18 @@ INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidMa
 INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
 INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
 MERGED from [:firebase_auth] E:\Flutter course\Flutter\music_app\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] E:\Flutter course\Flutter\music_app\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] E:\Flutter course\Flutter\music_app\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.firebase:firebase-core:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\07cc324ab72e31076d9549ebc618373e\firebase-core-18.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\dd47fca0e14640edf26ad1cae04e5f27\firebase-analytics-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\5e44f643e5d1e68aa83236c46ded5dc3\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:audioplayer] E:\Flutter course\Flutter\music_app\build\audioplayer\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:shared_preferences] E:\Flutter course\Flutter\music_app\build\shared_preferences\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:audioplayers] E:\Flutter course\Flutter\music_app\build\audioplayers\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [:path_provider] E:\Flutter course\Flutter\music_app\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:google_sign_in] E:\Flutter course\Flutter\music_app\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:17:1-91:12
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\9abf1704e28fe6b2ac45e4d2cd63fbf3\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\d611221fdd0645bcd612cb14720d2682\firebase-installations-16.3.3\AndroidManifest.xml:2:1-23:12
@@ -22,6 +25,7 @@ MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Sagar\.g
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\461da40e6f0884e5cbf310611b33e9a9\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\7b34615f2f3fdc322eec8733563f0b31\play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\410d94ed7c43533b55be7737955d550c\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\591867a4a47959b8fe6b53097d958759\firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\12b2a981af48a4d34665a895e1a50203\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ca08b22c284dcee426e12d80c7ff2a13\play-services-measurement-18.0.0\AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\613448feb7fd59f42d839284f5f0e1f6\play-services-measurement-sdk-18.0.0\AndroidManifest.xml:17:1-25:12
@@ -52,6 +56,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sa
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\3c4344c97194b317881817238bfc5913\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\d3eb63bf853c789a48d650b747031fff\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a44cec94aaed465518ad794d0c43f508\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\4526a9c01fabd3735f7a21ffe9548f90\grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\9c0da2eddbdf31165e08e7f14ec09da9\protolite-well-known-types-17.1.0\AndroidManifest.xml:2:1-11:12
 INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
 INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
 INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
@@ -73,6 +79,8 @@ application
 ADDED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidManifest.xml:8:5-46:19
 MERGED from [:firebase_auth] E:\Flutter course\Flutter\music_app\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] E:\Flutter course\Flutter\music_app\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] E:\Flutter course\Flutter\music_app\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] E:\Flutter course\Flutter\music_app\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] E:\Flutter course\Flutter\music_app\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] E:\Flutter course\Flutter\music_app\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-core:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\07cc324ab72e31076d9549ebc618373e\firebase-core-18.0.0\AndroidManifest.xml:7:5-20
@@ -81,6 +89,8 @@ MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\Sagar\.grad
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\dd47fca0e14640edf26ad1cae04e5f27\firebase-analytics-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:26:5-89:19
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:26:5-89:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\9abf1704e28fe6b2ac45e4d2cd63fbf3\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
@@ -173,12 +183,16 @@ INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidMa
 INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidManifest.xml
 MERGED from [:firebase_auth] E:\Flutter course\Flutter\music_app\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] E:\Flutter course\Flutter\music_app\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] E:\Flutter course\Flutter\music_app\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] E:\Flutter course\Flutter\music_app\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] E:\Flutter course\Flutter\music_app\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] E:\Flutter course\Flutter\music_app\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\07cc324ab72e31076d9549ebc618373e\firebase-core-18.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\07cc324ab72e31076d9549ebc618373e\firebase-core-18.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\dd47fca0e14640edf26ad1cae04e5f27\firebase-analytics-18.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\dd47fca0e14640edf26ad1cae04e5f27\firebase-analytics-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\5e44f643e5d1e68aa83236c46ded5dc3\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\5e44f643e5d1e68aa83236c46ded5dc3\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [:audioplayer] E:\Flutter course\Flutter\music_app\build\audioplayer\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:audioplayer] E:\Flutter course\Flutter\music_app\build\audioplayer\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] E:\Flutter course\Flutter\music_app\build\shared_preferences\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
@@ -191,6 +205,8 @@ MERGED from [:google_sign_in] E:\Flutter course\Flutter\music_app\build\google_s
 MERGED from [:google_sign_in] E:\Flutter course\Flutter\music_app\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\9abf1704e28fe6b2ac45e4d2cd63fbf3\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
@@ -207,6 +223,8 @@ MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Sag
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\7b34615f2f3fdc322eec8733563f0b31\play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\410d94ed7c43533b55be7737955d550c\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\410d94ed7c43533b55be7737955d550c\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\591867a4a47959b8fe6b53097d958759\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\591867a4a47959b8fe6b53097d958759\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\12b2a981af48a4d34665a895e1a50203\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\12b2a981af48a4d34665a895e1a50203\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ca08b22c284dcee426e12d80c7ff2a13\play-services-measurement-18.0.0\AndroidManifest.xml:20:5-44
@@ -267,6 +285,10 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sagar\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\d3eb63bf853c789a48d650b747031fff\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a44cec94aaed465518ad794d0c43f508\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a44cec94aaed465518ad794d0c43f508\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\4526a9c01fabd3735f7a21ffe9548f90\grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\4526a9c01fabd3735f7a21ffe9548f90\grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\9c0da2eddbdf31165e08e7f14ec09da9\protolite-well-known-types-17.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\9c0da2eddbdf31165e08e7f14ec09da9\protolite-well-known-types-17.1.0\AndroidManifest.xml:7:5-9:41
 INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidManifest.xml
 INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -279,10 +301,14 @@ INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidMa
 		INJECTED from E:\Flutter course\Flutter\music_app\android\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:firebase_auth] E:\Flutter course\Flutter\music_app\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] E:\Flutter course\Flutter\music_app\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] E:\Flutter course\Flutter\music_app\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] E:\Flutter course\Flutter\music_app\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] E:\Flutter course\Flutter\music_app\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:82:9-88:19
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:82:9-88:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\d611221fdd0645bcd612cb14720d2682\firebase-installations-16.3.3\AndroidManifest.xml:14:9-20:19
@@ -303,6 +329,12 @@ ADDED from [:firebase_auth] E:\Flutter course\Flutter\music_app\build\firebase_a
 		ADDED from [:firebase_auth] E:\Flutter course\Flutter\music_app\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_auth] E:\Flutter course\Flutter\music_app\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] E:\Flutter course\Flutter\music_app\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] E:\Flutter course\Flutter\music_app\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] E:\Flutter course\Flutter\music_app\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
 ADDED from [:firebase_core] E:\Flutter course\Flutter\music_app\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
 	android:value
@@ -313,6 +345,8 @@ uses-permission#android.permission.INTERNET
 ADDED from [:google_sign_in] E:\Flutter course\Flutter\music_app\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:14:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\d611221fdd0645bcd612cb14720d2682\firebase-installations-16.3.3\AndroidManifest.xml:11:5-67
@@ -327,6 +361,8 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:
 		ADDED from [:google_sign_in] E:\Flutter course\Flutter\music_app\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:13:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\d611221fdd0645bcd612cb14720d2682\firebase-installations-16.3.3\AndroidManifest.xml:10:5-79
@@ -337,6 +373,8 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\807b305be27beeba27a14200844a8d96\play-services-measurement-impl-18.0.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\0148bf4b67d90ab3ed3379b83b344796\play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\0148bf4b67d90ab3ed3379b83b344796\play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\4526a9c01fabd3735f7a21ffe9548f90\grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\4526a9c01fabd3735f7a21ffe9548f90\grpc-android-1.28.0\AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:22-76
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
@@ -423,6 +461,12 @@ ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\cac
 		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:87:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\2c4de5cce7345730065a92ac423cf9ce\jetified-firebase-auth-20.0.0\AndroidManifest.xml:86:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ae1933a6dc04fb618f0a195559d70cb6\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:21:17-111
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\a1427d643374604029ba240672e36c13\play-services-measurement-api-18.0.0\AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Sagar\.gradle\caches\transforms-2\files-2.1\ca08b22c284dcee426e12d80c7ff2a13\play-services-measurement-18.0.0\AndroidManifest.xml:25:5-68

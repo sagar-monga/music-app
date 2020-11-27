@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:music_app/db/songcrud.dart';
 import 'package:music_app/model/song.dart';
+import 'package:music_app/screens/playlist.dart';
 import 'package:music_app/utils/wave.dart';
 
 class PlayerScreen extends StatefulWidget {
@@ -102,7 +104,31 @@ class _PlayerScreenState extends State<PlayerScreen> {
       height: 10,
     );
   }
+  _goToPlaylist(){
+    stop();
+    Navigator.push(context, MaterialPageRoute(builder: (context)=>PlaylistScreen()));
+  }
+  _tryAgain(){
 
+  }
+  _getSnackBar(String title, String label, Function fn){
+    return SnackBar(
+      content: Text(title),
+      elevation: 20,
+      duration: Duration(seconds: 5),
+      behavior: SnackBarBehavior.floating,
+      action: SnackBarAction(
+        label: label,
+        onPressed: (){
+          fn();
+        },
+      ),
+    );
+  }
+  Future<bool> _addToPlaylist() async{
+    bool res = await SongCRUD.addNew(widget._song);
+    return res;
+  }
   @override
   Widget build(BuildContext context) {
     dev = MediaQuery.of(context).size;
@@ -141,7 +167,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
                         width: dev.width * 0.50,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: NetworkImage(widget._song.imgUrl),
+                            image: NetworkImage(widget._song.albumArt),
                             fit: BoxFit.cover,
                           ),
                           // image: DecorationImage(image: NetworkImage('https://upload.wikimedia.org/wikipedia/en/6/6c/MKBHD_logo.PNG')),
@@ -208,15 +234,24 @@ class _PlayerScreenState extends State<PlayerScreen> {
               ),
               _getGap(),
               _getGap(),
-              RaisedButton(
-                padding: EdgeInsets.all(15),
-                color: Colors.orangeAccent,
-                elevation: 10,
-                child: Text('Add To Playlist', style: TextStyle(fontSize: 20),),
-                onPressed: (){
-
-                },
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10),side: BorderSide(color: Colors.black, width: 2)),
+              Builder(            //For snackbar Scaffold.of
+                builder :(context)=> RaisedButton(
+                  padding: EdgeInsets.all(15),
+                  color: Colors.orangeAccent,
+                  elevation: 10,
+                  child: Text('Add To Playlist', style: TextStyle(fontSize: 20),),
+                  onPressed: () async{
+                    bool res = await _addToPlaylist();
+                    if(res)
+                      Scaffold.of(context).showSnackBar(_getSnackBar("Added to Playlist!","VIEW", _goToPlaylist));
+                      // _getSnackBar("Added to Playlist!","View");
+                    else
+                      Scaffold.of(context).showSnackBar(_getSnackBar("Some error occurred","TRY AGAIN", _tryAgain));
+                      // _getSnackBar("Some error occurred","Try Again");
+                    // Scaffold.of(context).showSnackBar(snackBar);
+                  },
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10),side: BorderSide(color: Colors.black, width: 2)),
+                ),
               )
             ],
           ),

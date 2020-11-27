@@ -68,8 +68,8 @@ class _LoginScreenState extends State<LoginScreen> {
               height: double.infinity,
               width: double.infinity,
               child: FittedBox(
-                  child: Image.network(Constants.LOGIN_BG_URL),
-                  fit: BoxFit.fill
+                  child: Image.asset('assets/images/login_bg.jpg'),
+                  fit: BoxFit.cover
               ),
             ),
             Center(

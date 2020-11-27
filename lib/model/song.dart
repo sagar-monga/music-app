@@ -1,7 +1,21 @@
 class Song{
   String _name;
+
+  @override
+  String toString() {
+    return 'Song{_name: $_name, _aname: $_aname, _imgUrl: $_imgUrl, _albumArt: $_albumArt, _url: $_url}';
+  }
+
   String _aname;
   String _imgUrl;
+  String _albumArt;
+  String _url;
+
+  String get albumArt => _albumArt;
+
+  set albumArt(String value) {
+    _albumArt = value;
+  }
 
   String get imgUrl => _imgUrl;
 
@@ -9,12 +23,6 @@ class Song{
     _imgUrl = value;
   }
 
-  @override
-  String toString() {
-    return 'Song{_name: $_name, _aname: $_aname, _url: $_url}';
-  }
-
-  String _url;
 
   String get name => _name;
 

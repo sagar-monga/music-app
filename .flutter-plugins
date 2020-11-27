@@ -1,10 +1,12 @@
 # This is a generated file; do not edit or check into version control.
 audioplayer=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\audioplayer-0.8.1\\
 audioplayers=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\audioplayers-0.16.2\\
-firebase_auth=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth-0.18.2\\
-firebase_auth_web=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth_web-0.3.1+2\\
-firebase_core=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core-0.5.1\\
-firebase_core_web=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core_web-0.2.0\\
+cloud_firestore=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore-0.14.3+1\\
+cloud_firestore_web=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore_web-0.2.1+1\\
+firebase_auth=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth-0.18.3+1\\
+firebase_auth_web=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth_web-0.3.2+1\\
+firebase_core=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core-0.5.2+1\\
+firebase_core_web=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core_web-0.2.1+1\\
 google_sign_in=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in-4.5.6\\
 google_sign_in_web=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in_web-0.9.2\\
 path_provider=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-1.6.22\\
