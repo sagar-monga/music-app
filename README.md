@@ -15,3 +15,7 @@ A Music App built with Flutter.
 1. Go to [releases page](https://github.com/sagar-monga/music-app/releases).
 2. Download and install the latest release.
 That's It!
+
+## For any queries
+Reach out on 
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://linkedin.com/in/sagarmonga)
