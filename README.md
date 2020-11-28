@@ -13,7 +13,7 @@ A Music App built with Flutter.
 ## How to Install?
 
 1. Go to [releases page](https://github.com/sagar-monga/music-app/releases).
-2. Download and install the latest release.
+2. Download the APK file from <code>assets</code> and install the latest release.
 That's It!
 
 ## For any queries
