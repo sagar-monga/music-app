@@ -2,11 +2,12 @@
 
 A Music App built with Flutter.
 
-<img src = "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" width= "300" height= "100"/>
+<img src = "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" width= "300" height= "100" alt = "Flutter Logo"/>
 
 ## See how it works 👇
 
-![Demo of App](https://github.com/sagar-monga/music-app/blob/main/v1Demo%20(1).gif)
+<img src = "https://user-images.githubusercontent.com/50130301/100520706-3e642180-31c5-11eb-8fb3-b104abec369a.gif" height = "384" width = "216" alt = "Working Demo GIF of App"/>
+
 
 
 ## How to Install?
