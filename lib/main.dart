@@ -20,7 +20,6 @@ void main() async {
   // print(await SongCRUD.addNew()? "Added":"Not Added");
   runApp(MaterialApp(
     home: SplashScreen(),
-    // home: PlaylistScreen(),
     debugShowCheckedModeBanner: false,
   ));
 }

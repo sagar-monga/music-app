@@ -75,11 +75,10 @@ class _OAuthLoginState extends State<OAuthLogin> {
     media = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xff3700B3),
+        backgroundColor: Colors.orangeAccent,
         title: Text(
           'Login',
-          style: GoogleFonts.openSans(textStyle: TextStyle(fontSize: 25, fontWeight: FontWeight.bold,)),
-        ),
+            style: GoogleFonts.montserrat(textStyle: TextStyle(fontSize: 25, fontWeight: FontWeight.bold))),
       ),
       body: Stack(
         children: [

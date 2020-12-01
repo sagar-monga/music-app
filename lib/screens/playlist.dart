@@ -20,7 +20,7 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
           shadowColor: Color(0xff03DAC6),
           child: ListTile(
             leading: Image.network(ss.docs[index].get('photo')),
-            title: Text(ss.docs[index].get('trackName'), style: GoogleFonts.openSans(fontSize: 20, fontWeight: FontWeight.bold),overflow: TextOverflow.ellipsis,),
+            title: Text(ss.docs[index].get('trackName'), style: GoogleFonts.openSans(fontSize: 20, fontWeight: FontWeight.bold),overflow: TextOverflow.clip,),
             subtitle: Text(ss.docs[index].get('albumName'),style: GoogleFonts.openSans(fontSize: 15, fontStyle: FontStyle.italic),overflow: TextOverflow.ellipsis),
             trailing:  IconButton(
               icon: Icon(Icons.play_circle_filled),
@@ -48,8 +48,8 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Your Playlist',),
-        backgroundColor: Color(0xff3700B3),
+        title: Text('Your Playlist',style: GoogleFonts.montserrat(textStyle: TextStyle(fontSize: 25, fontWeight: FontWeight.bold))),
+        backgroundColor: Colors.orangeAccent,
       ),
       body: StreamBuilder(
         stream: SongCRUD.getStreamPlaylist(),

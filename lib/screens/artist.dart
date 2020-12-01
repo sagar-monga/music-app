@@ -58,7 +58,9 @@ class _ArtistScreenState extends State<ArtistScreen> {
         children: [
           UserAccountsDrawerHeader(
             decoration: BoxDecoration(
-              color: Color(0xff6200EE),
+              color: Color(0xffFF7939),
+              // color: Color(0xff751975),
+              // color: Color(0xff6200EE),
             ),
             accountName: Text(widget._user.displayName, style: GoogleFonts.openSans(fontSize: 25, fontWeight: FontWeight.bold),),
             currentAccountPicture: Container(
@@ -108,7 +110,7 @@ class _ArtistScreenState extends State<ArtistScreen> {
               ),
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                border: Border.all(color: Color(0xff6200EE), width: 2),
+                border: Border.all(color: Color(0xff3200ff), width: 2),
               ),
             ),
           ),
@@ -116,7 +118,8 @@ class _ArtistScreenState extends State<ArtistScreen> {
         Container(
           child: Text(
             singer[index]["name"],
-            style: GoogleFonts.openSans(fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic),
+            overflow: TextOverflow.fade,
+            style: GoogleFonts.openSans(fontSize: 20),
           ),
         ),
       ],
@@ -142,8 +145,8 @@ class _ArtistScreenState extends State<ArtistScreen> {
     return Scaffold(
       drawer: _getDrawer(),
       appBar: AppBar(
-        backgroundColor: Color(0xff3700B3),
-        title: Text('Artist', style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.orangeAccent,
+        title: Text('Artist', style: GoogleFonts.montserrat(textStyle: TextStyle(fontSize: 25, fontWeight: FontWeight.bold))),
       ),
       body: Stack(
         children: [
@@ -152,7 +155,8 @@ class _ArtistScreenState extends State<ArtistScreen> {
               gradient: LinearGradient(
                 colors: [
                   Color(0xff4CB8C4),
-                  Color(0xff3CD3AD),
+                  // Color(0xff3CD3AD),
+                  Color(0xffFFCB7F),
                 ],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,

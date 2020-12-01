@@ -106,8 +106,8 @@ class _MusicScreenState extends State<MusicScreen> {
           shadowColor: Color(0xff03DAC6),
           child: ListTile(
             leading: Image.network(song.imgUrl),
-            title: Text(song.name, style: GoogleFonts.openSans(fontSize: 20, fontWeight: FontWeight.bold),overflow: TextOverflow.ellipsis,),
-            subtitle: Text(song.aname,style: GoogleFonts.openSans(fontSize: 15, fontStyle: FontStyle.italic),overflow: TextOverflow.ellipsis),
+            title: Text(song.name, maxLines: 1 ,style: GoogleFonts.openSans(fontSize: 20, fontWeight: FontWeight.bold),overflow: TextOverflow.clip,),
+            subtitle: Text(song.aname, maxLines: 1, style: GoogleFonts.openSans(fontSize: 15, fontStyle: FontStyle.italic),overflow: TextOverflow.ellipsis),
             trailing: Row(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
@@ -148,8 +148,9 @@ class _MusicScreenState extends State<MusicScreen> {
     var media = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Music Player',style: GoogleFonts.montserrat(textStyle: TextStyle(fontSize: 25, fontWeight: FontWeight.bold,color: Colors.white))),
-        backgroundColor: Color(0xff3700B3),
+        title: Text('Music Player',style: GoogleFonts.montserrat(textStyle: TextStyle(fontSize: 25, fontWeight: FontWeight.bold))),
+        // backgroundColor: Color(0xff3700B3),
+          backgroundColor: Colors.orangeAccent,
       ),
       body: SafeArea(
         child: SingleChildScrollView(
